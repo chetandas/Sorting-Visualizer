@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+}
+header h1{
+    text-align: center;
+    height: 9vh;
+    font-size: 40px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    column-gap: 5px;
+    position:relative;
+    top: 10px;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    /* background-color: #000; */
+}
+.container #newarray{
+    font-size: 20px;
+    width: 120px;
+    margin-left: 10px;
+}
+.container .arsize{
+    font-size: 25px;
+    position: relative;
+    right: 8px;
+    color: #fff;
+}
+.container .speed{
+    font-size: 25px;
+    position: relative;
+    right: 8px;
+    color: #fff;
+}
+.container #selsort{
+    font-size: 20px;
+}
+.container #bubsort{
+    font-size: 20px;
+}
+.container #inssort{
+    font-size: 20px;
+}
+.container #quicksort{
+    font-size: 20px;
+}
+.container #heapsort{
+    font-size: 20px;
+}
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+.flex-item{
+    background: cyan;
+    border: 1px solid black;
+    width: 10px;
+    transition: 0.1s all ease;
+}
